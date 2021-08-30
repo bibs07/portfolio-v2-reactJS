@@ -1,0 +1,11 @@
+.skillsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillsCard > img {
+  height: 125px;
+  width: 125px;
+  object-fit: cover;
+}

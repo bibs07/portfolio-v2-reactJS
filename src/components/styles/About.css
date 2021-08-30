@@ -1,0 +1,74 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__photo {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.about__photo > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0.5px 0.5px 5px;
+}
+
+.about__photo > h4 {
+  font-family: "Qwigley", cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 1rem 0;
+}
+
+.about__photo > h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.about__photo > h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.about__description {
+  background-color: #f4f7ff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.about__description p {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.downloadIcon {
+  margin: 0 0.3rem;
+}
+.about__description > button {
+  margin-top: 1rem;
+  background-color: #46456f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.about__description > button:hover {
+  background-color: #7271b0;
+}
+
+.about__description a {
+  text-decoration: none;
+  color: white;
+}
