@@ -6,4 +6,3 @@ This is revamped design of portfolio website which I created inititally.
 
 ![/screenshot.png](./screenshot.png)
 ![/screenshot1.png](./screenshot1.png)
-![/screenshot2.png](./screenshot2.png)
