@@ -4,7 +4,7 @@ import { Header } from "../atoms/Header";
 
 export const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__photo">
         <img src="./images/userPhoto.jpg" alt="user" />
         <h4>Bibek Dulal</h4>

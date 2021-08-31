@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 
 export const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <Header header="Projects" />
       <div className="projects__cards">
         <ProjectCard
