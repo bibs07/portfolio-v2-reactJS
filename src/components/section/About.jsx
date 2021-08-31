@@ -27,8 +27,8 @@ export const About = () => {
           a front-end developer. In my spare time, I work on web design projects
           and learn new programming language and frameworks.
         </p>
-        <button>
-          <a href="./resume.pdf">
+        <a href="./resume.pdf">
+          <button>
             <svg
               width="12"
               height="14"
@@ -43,9 +43,9 @@ export const About = () => {
               />
             </svg>
             Download Resume
-          </a>
-          {/* Download icon */}
-        </button>
+            {/* Download icon */}
+          </button>
+        </a>
       </div>
     </section>
   );

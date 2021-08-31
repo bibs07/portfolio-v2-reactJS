@@ -52,7 +52,8 @@
 .downloadIcon {
   margin: 0 0.3rem;
 }
-.about__description > button {
+.about__description > a > button {
+  width: 100%;
   margin-top: 1rem;
   background-color: #46456f;
   color: white;
@@ -65,7 +66,7 @@
   transition: all 0.25s ease-in-out;
 }
 
-.about__description > button:hover {
+.about__description > a > button:hover {
   background-color: #7271b0;
 }
 

@@ -31,7 +31,7 @@ export const Footer = () => {
           </a>
         </div>
         <div className="linkedinLogo">
-          <a href="https://www.linkedin.com/in/bibek-dulal-6857891bb/">
+          <a href="https://www.linkedin.com/in/bibek-dulal/">
             {/* linkedin logo */}
             <svg
               width="27"
